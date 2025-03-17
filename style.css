@@ -285,4 +285,17 @@ li {
   .play-btn{
     justify-content: center;
   }
+ #brand{
+    padding: 12px;
+ }
+  .brand-content{
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+  .company{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
