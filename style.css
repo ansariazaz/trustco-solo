@@ -1,0 +1,336 @@
+:root {
+  --primary-color: #043a53;
+  --secondary-color:#F0B73F;
+  --text-light: #12141d;
+  --text-hover: #043a53;
+  --text-color: #12141d;
+  --bg-color: #f2f5f6;
+  --bg-white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+}
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 16px;
+}
+
+p,
+span,
+li {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 10%;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: var(--text-light);
+  background-color: var(--bg-color);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-light);
+}
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login,
+.signup {
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.login {
+  color: var(--text-color);
+  background-color: var(--bg-white);
+}
+
+.signup {
+  background: var(--primary-color);
+  color: var(--bg-white);
+}
+#hero {
+  background-color: var(--bg-color);
+  padding: 80px 0px;
+}
+.hero-content {
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mid {
+  padding: 20px;
+  text-align: center;
+}
+.highlight {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+.sub-heading {
+  width: 85%;
+  margin: 0 auto;
+  color: var(--text-light);
+}
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--bg-white);
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0px 23px 47px 0px #043a533d;
+}
+.btn-primary:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--primary-color);
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 20px;
+}
+.play-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.play-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.play-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+.check {
+  margin: 0;
+}
+.green-stars {
+  color: green;
+}
+.stars {
+  color: #f0d63e;
+}
+.trustpilot {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.play {
+  width: 20px;
+  cursor: pointer;
+}
+.numbers {
+  color: var(--text-light);
+}
+.burger {
+  display: none;
+}
+.hero-left {
+  display: none;
+  width: 60%;
+}
+#brand{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.brand-content{
+    display: flex;
+    height: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+.trusted{
+    margin-top: 0;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#video{
+    background-color: var(--primary-color);
+}
+.video-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+.video-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 152px;
+    padding: 24px;
+}
+.video-container{
+    max-width: 1300px;
+}
+.video{
+    width: 100%;
+    margin-top: 32px;
+}
+.left-heading{
+   flex-basis: 60%;
+   color: var(--bg-white); 
+}
+.right-heading{
+    flex-basis: 40%;
+    color: var(--bg-white); 
+}
+.team{
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+@media (max-width: 890px) {
+  .navbar {
+    padding: 16px;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+  .auth-buttons {
+    display: none;
+  }
+  .hero-left {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  .cta-buttons {
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+  .trustpilot {
+    display: none;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-right {
+    width: 60%;
+  }
+  #hero{
+    padding: 12px 0px;
+  }
+  h1{
+    font-size: 2.2rem;
+  }
+  .highlight{
+    font-size: 2.2rem;
+  }
+  .sub-heading{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .play-btn{
+    justify-content: center;
+  }
+ #brand{
+    padding: 12px;
+ }
+  .brand-content{
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+  .company{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
