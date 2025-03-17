@@ -209,6 +209,25 @@ li {
   display: none;
   width: 60%;
 }
+#brand{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.brand-content{
+    display: flex;
+    height: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+.trusted{
+    margin-top: 0;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
 @media (max-width: 890px) {
   .navbar {
