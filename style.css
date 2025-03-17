@@ -1,0 +1,202 @@
+:root {
+  --primary-color: #043A53;
+  --text-light: #12141D;
+  --text-hover:#043A53;
+  --text-color:#12141D;
+  --bg-color:#F2F5F6;
+  --bg-white:#ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+}
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.50rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 16px;
+  }
+
+p,
+span,
+li {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10%;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: var(--text-light);
+    background-color: var(--bg-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-light);
+}
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color)
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login, .signup {
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.login {
+    color: var(--text-color);
+    background-color: var(--bg-white); 
+}
+
+.signup {
+    background: var(--primary-color);
+    color: var(--bg-white);
+}
+#hero{
+    background-color: var(--bg-color);
+    padding: 80px 0px;
+}
+.hero-content{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid{
+    padding: 20px;
+    text-align: center;
+}
+.highlight{
+    font-size: 3.5rem;
+    color: var(--primary-color);
+}
+.sub-heading{
+    width: 85%;
+    margin: 0 auto;
+    color: var(--text-light);
+}
+.btn-primary{
+    background: var(--primary-color);
+    color: var(--bg-white);
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0px 23px 47px 0px #043A533D;
+
+
+}
+.btn-primary:hover {
+    background: rgba(0, 0, 0, 0.2); 
+    color: var(--primary-color);
+}
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+.play-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.play-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.play-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.check{
+    margin: 0;
+}
+.green-stars{
+    color: green;
+}
+.stars{
+    color:#f0d63e;
+}
+.trustpilot{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.play{
+    width: 20px;
+    cursor: pointer;
+}
+.numbers{
+    color: var(--text-light);
+}
