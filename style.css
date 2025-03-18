@@ -329,6 +329,21 @@ li {
 .bridge-right{
     padding: 32px;
 }
+#number{
+    max-width: 1300px;
+    margin:50px auto;
+}
+.number-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.number-content h1{
+  color: var(--primary-color);
+}
 @media (max-width: 890px) {
   html {
     font-size: 12px;
