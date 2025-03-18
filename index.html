@@ -238,6 +238,62 @@
                 </div>
             </div>
         </section>
+        <section id="blog">
+            <div class="blog-content">
+                <div class="test-top">
+                    <h3>Whats new on Trustco. ?</h3>
+                    <p class="see-cont"> <span class="all">See All</span> <img src="./assets/right.png" /></p>
+                </div>
+                <div class="blog-right">
+                    <div class="blog">
+                        <img src="./assets/blog1.png" alt="illust" class="blog-image">
+                        <div class="blog-text">
+                            <p class="zero-margin">23 Nov 2022, <span class="writer">by Amanda Hugh</span></p>
+                            <h5>What Makes an Authentic Employee Profile?</h5>
+                            <p class="para">Productive agents are happy agents. Give them all the support tools and information they
+                                need
+                                to best serve your customers.</p>
+                            <div class="story">
+                                <span class="zero-margin">Read Story</span>
+                                <span class="zero-margin">
+                                    <img src="./assets/right.png" alt="arrow">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="./assets/blog2.png" alt="illust" class="blog-image">
+                        <div class="blog-text">
+                            <p class="zero-margin">15 Nov 2022, <span class="writer">by Sofia Kent</span></p>
+                            <h5>Why Does It Matter to be Authentic Employee?</h5>
+                            <p class="para">I'm totally unconvinced that two people can find a person they haven't known previously...</p>
+                            <div class="story">
+                                <span class="zero-margin">Read Story</span>
+                                <span class="zero-margin">
+                                    <img src="./assets/right.png" alt="arrow">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="./assets/blog3.png" alt="illust" class="blog-image">
+                        <div class="blog-text">
+                            <p class="zero-margin">23 Sep 2022, <span class="writer">by Jason Bone</span></p>
+                            <h5>What Makes an Authentic Employee Profile?</h5>
+                            <p class="para">Productive agents are happy agents. Give them all the support tools and information they
+                                need
+                                to best serve your customers.</p>
+                            <div class="story">
+                                <span class="zero-margin">Read Story</span>
+                                <span class="zero-margin">
+                                    <img src="./assets/right.png" alt="arrow">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -258,14 +314,14 @@
 
         function changeSlide(index) {
             currentSlide = index;
-            const offset = -currentSlide * 50; 
+            const offset = -currentSlide * 50;
             testimonials.style.transform = `translateX(${offset}%)`;
             dots.forEach(dot => dot.classList.remove("active"));
             dots[currentSlide].classList.add("active");
         }
 
         function autoSlide() {
-            let nextSlide = (currentSlide + 1) % (totalSlides / 2); 
+            let nextSlide = (currentSlide + 1) % (totalSlides / 2);
             changeSlide(nextSlide);
         }
 
