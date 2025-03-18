@@ -449,4 +449,9 @@ li {
   .view{
     margin: 12px auto;
   }
+  .number-content{
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 20px;
+  }
 }
