@@ -482,4 +482,15 @@ li {
     gap: 28px;
     padding: 20px;
   }
+  .founder-content{
+    flex-direction: column;
+  }
+  .founder-right{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .see{
+    margin: 20px auto;
+  }
 }
