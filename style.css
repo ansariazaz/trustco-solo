@@ -299,7 +299,15 @@ li {
    max-width: 1300px;
    margin: 0 auto;
 }
+#founder{
+    max-width: 1300px;
+    margin: 0 auto; 
+}
 .bridge-content{
+    display: flex;
+    gap: 24px;
+}
+.founder-content{
     display: flex;
     gap: 24px;
 }
@@ -319,6 +327,26 @@ li {
     color: #ffffff;
     margin-top: 32px;
     cursor: pointer;
+}
+.see{
+    max-width: 320px;
+    background-color: var(--primary-color);
+    display: inline;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 32px;
+    color: #ffffff;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.name{
+    font-weight: 600;
+}
+.sign{
+    margin: 0;
+    font-weight: 300;
 }
 .view:hover{
     background-color: #176a91;
