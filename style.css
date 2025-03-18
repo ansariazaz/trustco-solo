@@ -295,7 +295,40 @@ li {
 .left-para{
     width: 70%;
 }
-
+#bridge{
+   max-width: 1300px;
+   margin: 0 auto;
+}
+.bridge-content{
+    display: flex;
+    gap: 24px;
+}
+.faded{
+    font-size: 3rem;
+    color: #92A7B0;
+}
+.view{
+    width: 200px;
+    background-color: var(--primary-color);
+    display: inline;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    color: #ffffff;
+    column-gap: 20px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.view:hover{
+    background-color: #176a91;
+}
+.report{
+    margin: 0;
+}
+.bridge-right{
+    padding: 32px;
+}
 @media (max-width: 890px) {
   html {
     font-size: 12px;
