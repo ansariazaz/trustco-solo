@@ -197,6 +197,11 @@
                     <h3>We Believe people we trust</h3>
                     <p class="see-cont"> <span class="all">See All</span> <img src="./assets/right.png" /></p>
                 </div>
+                <div class="pagination page-up">
+                    <span class="dot active" onclick="changeSlide(0)"></span>
+                    <span class="dot" onclick="changeSlide(1)"></span>
+                    <span class="dot" onclick="changeSlide(2)"></span>
+                </div>
                 <div class="carousel-container">
                     <div class="comments testimonials">
                         <div class="comment testimonial">
@@ -226,9 +231,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="pagination">
+                <div class="pagination page-down">
                     <span class="dot active" onclick="changeSlide(0)"></span>
                     <span class="dot" onclick="changeSlide(1)"></span>
+                    <span class="dot" onclick="changeSlide(2)"></span>
                 </div>
             </div>
         </section>
@@ -252,14 +258,14 @@
 
         function changeSlide(index) {
             currentSlide = index;
-            const offset = -currentSlide * 50; // Move by 50% for each slide
+            const offset = -currentSlide * 50; 
             testimonials.style.transform = `translateX(${offset}%)`;
             dots.forEach(dot => dot.classList.remove("active"));
             dots[currentSlide].classList.add("active");
         }
 
         function autoSlide() {
-            let nextSlide = (currentSlide + 1) % (totalSlides / 2); // Adjust for two testimonials at a time
+            let nextSlide = (currentSlide + 1) % (totalSlides / 2); 
             changeSlide(nextSlide);
         }
 

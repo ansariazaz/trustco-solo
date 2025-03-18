@@ -262,207 +262,211 @@ li {
   font-size: 4rem;
   color: var(--secondary-color);
 }
-#beneficial{
-    max-width: 1300px;
-    margin: 40px auto;
+#beneficial {
+  max-width: 1300px;
+  margin: 40px auto;
 }
-.benfecial{
-    background-color: var(--primary-color);
-    color: #ffffff;
-    display: inline;
-    padding: 12px 24px;
-    border-radius: 24px;
+.benfecial {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  display: inline;
+  padding: 12px 24px;
+  border-radius: 24px;
 }
-.benefit-content{
-    display: flex;
+.benefit-content {
+  display: flex;
 }
 
-.benfit-right{
-    display: flex;
-    flex-basis: 100%;
-    gap: 24px;
-    align-items: flex-start;
+.benfit-right {
+  display: flex;
+  flex-basis: 100%;
+  gap: 24px;
+  align-items: flex-start;
 }
-.card{
-    background-color: var(--bg-color);
-    padding: 32px;
-    border-radius: 12px;
-    flex: 1;
+.card {
+  background-color: var(--bg-color);
+  padding: 32px;
+  border-radius: 12px;
+  flex: 1;
 }
-.left-card{
-    padding: 32px;
+.left-card {
+  padding: 32px;
 }
-.left-para{
-    width: 70%;
+.left-para {
+  width: 70%;
 }
-#bridge{
-   max-width: 1300px;
-   margin: 0 auto;
+#bridge {
+  max-width: 1300px;
+  margin: 0 auto;
 }
-#founder{
-    max-width: 1300px;
-    margin: 0 auto; 
+#founder {
+  max-width: 1300px;
+  margin: 0 auto;
 }
-.bridge-content{
-    display: flex;
-    gap: 24px;
+.bridge-content {
+  display: flex;
+  gap: 24px;
 }
-.founder-content{
-    display: flex;
-    gap: 24px;
+.founder-content {
+  display: flex;
+  gap: 24px;
 }
-.faded{
-    font-size: 3rem;
-    color: #92A7B0;
+.faded {
+  font-size: 3rem;
+  color: #92a7b0;
 }
-.view{
-    max-width: 180px;
-    background-color: var(--primary-color);
-    display: inline;
-    padding: 12px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 32px;
-    color: #ffffff;
-    margin-top: 32px;
-    cursor: pointer;
+.view {
+  max-width: 180px;
+  background-color: var(--primary-color);
+  display: inline;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 32px;
+  color: #ffffff;
+  margin-top: 32px;
+  cursor: pointer;
 }
-.see{
-    max-width: 320px;
-    background-color: var(--primary-color);
-    display: inline;
-    padding: 12px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 32px;
-    color: #ffffff;
-    margin-top: 32px;
-    cursor: pointer;
+.see {
+  max-width: 320px;
+  background-color: var(--primary-color);
+  display: inline;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 32px;
+  color: #ffffff;
+  margin-top: 32px;
+  cursor: pointer;
 }
-.name{
-    font-weight: 600;
+.name {
+  font-weight: 600;
 }
-.sign{
-    margin: 0;
-    font-weight: 300;
+.sign {
+  margin: 0;
+  font-weight: 300;
 }
-.view:hover{
-    background-color: #176a91;
+.view:hover {
+  background-color: #176a91;
 }
-.report{
-    margin: 0;
+.report {
+  margin: 0;
 }
-.bridge-right{
-    padding: 32px;
+.bridge-right {
+  padding: 32px;
 }
-#number{
-    max-width: 1300px;
-    margin:50px auto;
+#number {
+  max-width: 1300px;
+  margin: 50px auto;
 }
-.number-content{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.number-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-.number-content h1{
+.number-content h1 {
   color: var(--primary-color);
 }
-#testimonial{
-    background-color:var(--bg-color);
+#testimonial {
+  background-color: var(--bg-color);
 }
-.testimonial-content{
-    max-width: 1300px;
-    margin: 0 auto;
+.testimonial-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.comma{
-    color: #F0B73F;
-    font-size: 3rem;
-    display: block;
-    height: 28px;
+.comma {
+  color: #f0b73f;
+  font-size: 3rem;
+  display: block;
+  height: 28px;
 }
-.comments{
-    display: flex;
-    gap: 24px;
-    margin-top: 32px;
+.comments {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
 }
-.comment{
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
+.comment {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
 }
-.said{
-    margin: 0;
+.said {
+  margin: 0;
 }
-.test-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 40px;
+.test-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
 }
-.see-cont{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
+.see-cont {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
 }
-.all{
-    margin: 0;
+.all {
+  margin: 0;
 }
-.profile{
-    display: flex;
-    margin-top: 8px;
-    gap: 12px;
-    align-items: center;
+.profile {
+  display: flex;
+  margin-top: 8px;
+  gap: 12px;
+  align-items: center;
 }
-.photo{
-    object-fit: contain;
+.photo {
+  object-fit: contain;
 }
-.designation{
-    margin: 0;
+.designation {
+  margin: 0;
 }
-.person{
-    font-weight: 600;
-    margin: 0;
+.person {
+  font-weight: 600;
+  margin: 0;
 }
 .carousel-container {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
 }
 .testimonials {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
 }
 .testimonial {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 50%; 
-    flex: 0 0 50%;
-    text-align: left;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  flex: 0 0 50%;
+  text-align: left;
 }
 .pagination {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 .dot {
-    height: 8px;
-    width: 8px;
-    background-color: lightgray;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 5px;
-    cursor: pointer;
+  height: 8px;
+  width: 8px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
 }
 .dot.active {
-    background-color: black;
+  background-color: black;
+}
+.page-up{
+    display: none;
 }
 @media (max-width: 890px) {
   html {
@@ -510,7 +514,7 @@ li {
   #hero {
     padding: 12px 0px;
   }
-  .mid{
+  .mid {
     width: 100%;
     padding: 12px;
   }
@@ -538,51 +542,75 @@ li {
     gap: 20px;
     padding: 12px;
   }
-  .benefit-content{
+  .benefit-content {
     flex-direction: column;
     align-items: center;
   }
-  .left-card{
+  .left-card {
     padding: 20px;
     text-align: center;
   }
-  .left-para{
+  .left-para {
     width: 100%;
   }
-  .benfit-right{
+  .benfit-right {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
   }
-  .bridge-content{
+  .bridge-content {
     flex-direction: column-reverse;
     gap: 4px;
   }
-  .bridge{
+  .bridge {
     width: 100%;
   }
-  .bridge-right{
+  .bridge-right {
     padding: 20px;
     text-align: center;
   }
-  .view{
+  .view {
     margin: 12px auto;
   }
-  .number-content{
+  .number-content {
     flex-wrap: wrap;
     gap: 28px;
     padding: 20px;
   }
-  .founder-content{
+  .founder-content {
     flex-direction: column;
   }
-  .founder-right{
+  .founder-right {
     width: 100%;
     text-align: center;
     padding: 20px;
   }
-  .see{
+  .see {
     margin: 20px auto;
+  }
+  .testimonials {
+    width: 200%; 
+  }
+
+  .testimonial {
+    width: 50%; 
+    flex: 0 0 50%; 
+  }
+  .page-up{
+    display: block;
+  }
+  .test-top{
+    text-align: center;
+    justify-content: center;
+  }
+  .see-cont{
+    display: none;
+  }
+  .page-down{
+    display: none;
+  }
+  .dot.active {
+    background-color: black;
   }
 }
