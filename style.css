@@ -370,4 +370,21 @@ li {
     gap: 20px;
     padding: 12px;
   }
+  .benefit-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-card{
+    padding: 20px;
+    text-align: center;
+  }
+  .left-para{
+    width: 100%;
+  }
+  .benfit-right{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
 }
