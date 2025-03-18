@@ -38,11 +38,11 @@ h4 {
 }
 
 h5 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h6 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 h1,
 h2,
@@ -261,6 +261,39 @@ li {
 .team {
   font-size: 4rem;
   color: var(--secondary-color);
+}
+#beneficial{
+    max-width: 1300px;
+    margin: 60px auto;
+}
+.benfecial{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: inline;
+    padding: 12px 24px;
+    border-radius: 24px;
+}
+.benefit-content{
+    display: flex;
+}
+
+.benfit-right{
+    display: flex;
+    flex-basis: 100%;
+    gap: 24px;
+    align-items: flex-start;
+}
+.card{
+    background-color: var(--bg-color);
+    padding: 32px;
+    border-radius: 12px;
+    flex: 1;
+}
+.left-card{
+    padding: 32px;
+}
+.left-para{
+    width: 70%;
 }
 
 @media (max-width: 890px) {
