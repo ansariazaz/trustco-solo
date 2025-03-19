@@ -59,7 +59,6 @@ span,
 li {
   font-size: 1rem;
   line-height: 1.5;
-  margin-top: 12px;
 }
 
 .navbar {
@@ -647,6 +646,27 @@ li {
 .footer-column ul li a:hover {
     color: var(--primary-color);
 }
+#site{
+    background-color: #F2F5F6;
+    padding: 20px;
+}
+.site-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #92A7B0;
+}
+.site-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+.privacy{
+    margin-left: 12px;
+}
 @media (max-width: 890px) {
   html {
     font-size: 12px;
@@ -802,8 +822,6 @@ li {
     flex: 0 0 90%; 
     scroll-snap-align: start; 
   }
-
-
   .blog-right::-webkit-scrollbar {
     display: none;
   }
