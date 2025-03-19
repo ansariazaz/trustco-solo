@@ -555,7 +555,7 @@ li {
     cursor: pointer; 
 }
 .credit{
-    margin-top: 32px;
+    margin-top: 24px;
 }
 @media (max-width: 890px) {
   html {
@@ -719,5 +719,13 @@ li {
   }
   .see-all{
     display: flex;
+  }
+  .cta-content{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .trial{
+    margin: 20px auto;
   }
 }
