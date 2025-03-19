@@ -842,4 +842,8 @@ li {
   .footer-right{
     justify-content: flex-start;
   }
+  .site-content{
+    flex-direction: column;
+    gap: 24px;
+  }
 }
