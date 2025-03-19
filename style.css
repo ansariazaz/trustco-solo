@@ -23,7 +23,7 @@ html {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -136,7 +136,7 @@ li {
   text-align: center;
 }
 .highlight {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: var(--primary-color);
 }
 .sub-heading {
@@ -259,7 +259,7 @@ li {
   color: var(--bg-white);
 }
 .team {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--secondary-color);
 }
 #beneficial {
@@ -312,7 +312,7 @@ li {
   gap: 24px;
 }
 .faded {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #92a7b0;
 }
 .view {
