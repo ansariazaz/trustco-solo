@@ -16,7 +16,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-style: normal;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 html {
   font-size: 16px;
@@ -487,6 +487,7 @@ li {
 .blog {
   box-shadow: 0px 1px 2px 0px #00000014;
   border-radius: 12px;
+  flex: 1
 }
 .blog-text {
   padding: 20px;
@@ -517,6 +518,44 @@ li {
 }
 .right-arrow{
     width: 20px;
+}
+#CTA{
+    background-color: #12141D;
+}
+.cta-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    color: #ffffff;
+    gap: 20px;
+}
+.cta-left{
+    flex-basis: 50%;
+}
+.cta-right{
+    flex-basis: 50%;
+}
+.cta-head{
+    padding-top: 50px;
+}
+.decoration{
+    width: 100%;
+}
+.trial{
+    max-width: 260px;
+    background-color: var(--secondary-color);
+    display: inline;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 32px;
+    color: #ffffff;
+    margin-top: 32px;
+    cursor: pointer; 
+}
+.credit{
+    margin-top: 32px;
 }
 @media (max-width: 890px) {
   html {
