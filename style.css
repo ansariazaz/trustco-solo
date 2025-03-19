@@ -559,10 +559,11 @@ li {
 }
 .footer {
     background-color: #ffffff;
-    padding: 40px 60px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     border-top: 2px solid #ddd;
+    text-align: center;
 }
 
 .footer-container {
@@ -574,6 +575,10 @@ li {
 
 .footer-left {
    flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .footer-mid{
     flex: 1;
@@ -595,7 +600,7 @@ li {
     color: #333;
     font-size: 14px;
     line-height: 1.6;
-    margin-top: 10px;
+    margin-top: 28px;
 }
 
 .social-icons {
@@ -621,7 +626,9 @@ li {
     color: #000;
     margin-bottom: 10px;
 }
-
+.footer-column{
+    text-align: left;
+}
 .footer-column ul {
     list-style: none;
 }
@@ -786,17 +793,17 @@ li {
     background-color: black;
   }
   .blog-right {
-    flex-wrap: nowrap; /* Prevent wrapping to show cards in a single row */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Snap cards into place while scrolling */
-    gap: 10px; /* Adjust the gap between cards for mobile */
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    gap: 10px; 
   }
   .blog {
-    flex: 0 0 90%; /* Show one card at a time, taking up 90% of the container width */
-    scroll-snap-align: start; /* Snap cards to the start of the container */
+    flex: 0 0 90%; 
+    scroll-snap-align: start; 
   }
 
-  /* Hide scrollbar for a cleaner look (optional) */
+
   .blog-right::-webkit-scrollbar {
     display: none;
   }
@@ -810,5 +817,11 @@ li {
   }
   .trial{
     margin: 20px auto;
+  }
+  .footer-container{
+    flex-direction: column;
+  }
+  .footer-right{
+    justify-content: flex-start;
   }
 }
