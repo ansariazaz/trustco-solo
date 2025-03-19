@@ -667,6 +667,162 @@ li {
 .privacy{
     margin-left: 12px;
 }
+/* contact us  */
+.contact-container {
+  background-color: var(--bg-color);
+
+}
+.help-section{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.help{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.title{
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contact Cards */
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    background: white;
+    padding: 20px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+.contact-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 12px;
+}
+
+.contact-card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    display: block;
+    margin-top: 32px;
+}
+
+/* Message Form */
+.message-container {
+    background: white;
+    padding:20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.message-content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.message-container p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-box img {
+    width: 20px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.textarea-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    height: 80px;
+    font-size: 14px;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.term{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+.leave{
+    font-size: 3rem;
+}
 @media (max-width: 890px) {
   html {
     font-size: 12px;
