@@ -557,6 +557,89 @@ li {
 .credit{
     margin-top: 24px;
 }
+.footer {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.footer-left {
+   flex: 1;
+}
+.footer-mid{
+    flex: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0b3d59;
+}
+
+.logo img {
+    width: 200px;
+    margin-right: 12px;
+}
+
+.description {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.social-icons {
+    margin-top: 32px;
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+.social-icons img{
+    cursor: pointer;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex: 1;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: var(--primary-color);
+}
 @media (max-width: 890px) {
   html {
     font-size: 12px;
